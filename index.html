@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập buổi 6</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background: white;
+        }
+        .container {
+            max-width: 800px;
+            background: pink;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            color: #808080;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #ffffff;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        li:hover {
+            transform: scale(1.05);
+        }
+        a {
+            text-decoration: none;
+            color: #ff4081;
+            font-weight: bold;
+            position: relative;
+            display: inline-block;
+            padding: 5px 0;
+        }
+        a::after {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background: #ff4081;
+            left: 50%;
+            bottom: -3px;
+            transition: width 0.4s ease, left 0.4s ease;
+        }
+        a:hover::after {
+            width: 100%;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bài tập buổi 6</h1>
+        <p>Danh sách bài tập của buổi 6:</p>
+        <ul>
+            <li><a href="b6-bai1.html">Bài 1: Thiết kế album ZingMP3</a></li>
+        </ul>
+    </div>
+</body>
+</html>
